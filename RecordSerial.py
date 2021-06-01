@@ -70,7 +70,7 @@ while is_running:
     file_text = file_text+str(cur_time)+","+str(int(reading))+"\n"
 
 
-f = open("record.csv", "w")
+f = open("data.csv", "w")
 f.write(file_text)
 f.close()
 
